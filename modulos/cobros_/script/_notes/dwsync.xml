@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="class.ManteCobro.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130529855064012305" remote="130644161670000000" Dst="-1" />
+<file name="class.Dashboard.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130584698491996962" remote="130644161670000000" Dst="-1" />
+<file name="class.ContratoView.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130643991284305530" remote="130644161670000000" Dst="-1" />
+<file name="class.CIdentifciado.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130495832613249579" remote="130644161670000000" Dst="-1" />
+<file name="class.Zonas.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130633787233769786" remote="130644161670000000" Dst="-1" />
+<file name="class.TMap.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130555399697867851" remote="130644161670000000" Dst="-1" />
+<file name="class.GenerarMeta.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130580680332680535" remote="130644161670000000" Dst="-1" />
+<file name="class.cActas.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130615290337171070" remote="130644161670000000" Dst="-1" />
+<file name="class.GAbonoCapital.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130629160138309439" remote="130644161670000000" Dst="-1" />
+<file name="class.GOrdenInhumacion.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644084961676562" remote="130644161670000000" Dst="-1" />
+<file name="class.RegistrarPersona.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130633383288782014" remote="130644161670000000" Dst="-1" />
+<file name="class.FacturarProductos.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644073067159873" remote="130644161670000000" Dst="-1" />
+<file name="class.RegistrarInhumado.js" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644035435825325" remote="130644161670000000" Dst="-1" />
+<file name="class.cActas.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130615290337171070" remote="130656412260000000" Dst="-1" />
+<file name="class.CIdentifciado.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130495832613249579" remote="130656412260000000" Dst="-1" />
+<file name="class.ContratoView.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130668092321564055" remote="130668329950000000" Dst="-1" />
+<file name="class.Dashboard.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130584698491996962" remote="130656412280000000" Dst="-1" />
+<file name="class.FacturarProductos.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130649520506269077" remote="130656412280000000" Dst="-1" />
+<file name="class.GAbonoCapital.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130629160138309439" remote="130656412280000000" Dst="-1" />
+<file name="class.GenerarMeta.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130580680332680535" remote="130656412280000000" Dst="-1" />
+<file name="class.GOrdenInhumacion.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130650179410000000" remote="130656412290000000" Dst="-1" />
+<file name="class.ManteCobro.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130529855064012305" remote="130656412290000000" Dst="-1" />
+<file name="class.RegistrarInhumado.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130644035435825325" remote="130656412290000000" Dst="-1" />
+<file name="class.RegistrarPersona.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130633383288782014" remote="130656412290000000" Dst="-1" />
+<file name="class.TMap.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130555399697867851" remote="130656412290000000" Dst="-1" />
+<file name="class.Zonas.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130633787233769786" remote="130656412290000000" Dst="-1" />
+<file name="class.CAbonoASaldo.js" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130665354742213997" remote="130665207620000000" Dst="-1" />
+<file name="class.CAbonoASaldo.js" server="192.168.0.6//var/www/html/sandbox/" local="130665354742213997" remote="130675453230000000" Dst="-1" />
+<file name="class.cActas.js" server="192.168.0.6//var/www/html/sandbox/" local="130615290337171070" remote="130675453230000000" Dst="-1" />
+<file name="class.CIdentifciado.js" server="192.168.0.6//var/www/html/sandbox/" local="130495832613249579" remote="130675453230000000" Dst="-1" />
+<file name="class.ContratoView.js" server="192.168.0.6//var/www/html/sandbox/" local="130675358289512360" remote="130675453230000000" Dst="-1" />
+<file name="class.Dashboard.js" server="192.168.0.6//var/www/html/sandbox/" local="130675342354957245" remote="130675453230000000" Dst="-1" />
+<file name="class.FacturarProductos.js" server="192.168.0.6//var/www/html/sandbox/" local="130649520506269077" remote="130675453230000000" Dst="-1" />
+<file name="class.GAbonoCapital.js" server="192.168.0.6//var/www/html/sandbox/" local="130629160138309439" remote="130675453230000000" Dst="-1" />
+<file name="class.GenerarMeta.js" server="192.168.0.6//var/www/html/sandbox/" local="130580680332680535" remote="130675453230000000" Dst="-1" />
+<file name="class.GOrdenInhumacion.js" server="192.168.0.6//var/www/html/sandbox/" local="130650179410000000" remote="130675453230000000" Dst="-1" />
+<file name="class.ManteCobro.js" server="192.168.0.6//var/www/html/sandbox/" local="130529855064012305" remote="130675453230000000" Dst="-1" />
+<file name="class.RegistrarInhumado.js" server="192.168.0.6//var/www/html/sandbox/" local="130644035435825325" remote="130675453230000000" Dst="-1" />
+<file name="class.RegistrarPersona.js" server="192.168.0.6//var/www/html/sandbox/" local="130633383288782014" remote="130675453230000000" Dst="-1" />
+<file name="class.TMap.js" server="192.168.0.6//var/www/html/sandbox/" local="130555399697867851" remote="130675453230000000" Dst="-1" />
+<file name="class.Zonas.js" server="192.168.0.6//var/www/html/sandbox/" local="130633787233769786" remote="130675453230000000" Dst="-1" />
+</dwsync>

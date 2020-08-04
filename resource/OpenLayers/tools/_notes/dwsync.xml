@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="closure_library_jscompiler.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573447" remote="20614442631" Dst="-1" />
+<file name="BeautifulSoup.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573448" remote="20614442632" Dst="-1" />
+<file name="closure_ws.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573447" remote="20614442631" Dst="-1" />
+<file name="exampleparser.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573448" remote="20614442632" Dst="-1" />
+<file name="jsmin.c" server="brainktracker.com//var/www/html/oscgre/" local="3434573449" remote="20614442633" Dst="-1" />
+<file name="jsmin.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573449" remote="20614442633" Dst="-1" />
+<file name="mergejs.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573449" remote="20614442633" Dst="-1" />
+<file name="minimize.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573449" remote="20614442633" Dst="-1" />
+<file name="oldot.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573450" remote="20614442634" Dst="-1" />
+<file name="README.txt" server="brainktracker.com//var/www/html/oscgre/" local="3434573450" remote="20614442634" Dst="-1" />
+<file name="release.sh" server="brainktracker.com//var/www/html/oscgre/" local="3434573451" remote="20614442635" Dst="-1" />
+<file name="shrinksafe.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573451" remote="20614442635" Dst="-1" />
+<file name="toposort.py" server="brainktracker.com//var/www/html/oscgre/" local="3434573451" remote="20614442635" Dst="-1" />
+<file name="update_dev_dir.sh" server="brainktracker.com//var/www/html/oscgre/" local="3434573451" remote="20614442635" Dst="-1" />
+<file name="BeautifulSoup.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166480000000" remote="130644163210000000" Dst="0" />
+<file name="closure_library_jscompiler.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166480000000" remote="130644163210000000" Dst="0" />
+<file name="closure_ws.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166480000000" remote="130644163210000000" Dst="0" />
+<file name="exampleparser.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166480000000" remote="130644163210000000" Dst="0" />
+<file name="jsmin.c" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="jsmin.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="mergejs.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="minimize.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="oldot.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="README.txt" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166500000000" remote="130644163210000000" Dst="0" />
+<file name="release.sh" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166520000000" remote="130644163210000000" Dst="0" />
+<file name="shrinksafe.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166520000000" remote="130644163210000000" Dst="0" />
+<file name="toposort.py" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166520000000" remote="130644163210000000" Dst="0" />
+<file name="update_dev_dir.sh" server="192.168.0.2//srv/www/htdocs/sandpit/" local="129962166520000000" remote="130644163220000000" Dst="0" />
+<file name="BeautifulSoup.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166480000000" remote="130675454570000000" Dst="0" />
+<file name="closure_library_jscompiler.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166480000000" remote="130675454570000000" Dst="0" />
+<file name="closure_ws.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166480000000" remote="130675454570000000" Dst="0" />
+<file name="exampleparser.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166480000000" remote="130675454570000000" Dst="0" />
+<file name="jsmin.c" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454570000000" Dst="0" />
+<file name="jsmin.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454570000000" Dst="0" />
+<file name="mergejs.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454580000000" Dst="0" />
+<file name="minimize.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454580000000" Dst="0" />
+<file name="oldot.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454580000000" Dst="0" />
+<file name="README.txt" server="192.168.0.6//var/www/html/sandbox/" local="129962166500000000" remote="130675454580000000" Dst="0" />
+<file name="release.sh" server="192.168.0.6//var/www/html/sandbox/" local="129962166520000000" remote="130675454580000000" Dst="0" />
+<file name="shrinksafe.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166520000000" remote="130675454580000000" Dst="0" />
+<file name="toposort.py" server="192.168.0.6//var/www/html/sandbox/" local="129962166520000000" remote="130675454580000000" Dst="0" />
+<file name="update_dev_dir.sh" server="192.168.0.6//var/www/html/sandbox/" local="129962166520000000" remote="130675454580000000" Dst="0" />
+</dwsync>

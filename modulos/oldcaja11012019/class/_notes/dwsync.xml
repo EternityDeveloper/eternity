@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="class.Caja.php" server="190.167.211.194//srv/www/htdocs/sandpit/" local="130393810556324417" remote="130393665460000000" Dst="0" />
+<file name="class.MantenimientoCaja.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130428424285819770" remote="130644161590000000" Dst="0" />
+<file name="class.Caja.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130646558169808430" remote="130646871380000000" Dst="0" />
+<file name="class.CTipoDocumento.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130591862297456647" remote="130644161590000000" Dst="0" />
+<file name="class.CTipoMovimiento.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130641796559626776" remote="130644161590000000" Dst="0" />
+<file name="class.interface.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130427497730000000" remote="130644161590000000" Dst="0" />
+<file name="class.AbonoCapital.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130615826527509079" remote="130644161590000000" Dst="0" />
+<file name="class.Cierre.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130645254873541304" remote="130646871380000000" Dst="0" />
+<file name="class.ModContable.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130642904132809158" remote="130644161590000000" Dst="0" />
+<file name="class.Caja.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130668231719102748" remote="130668331800000000" Dst="0" />
+<file name="class.AbonoCapital.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130615826527509079" remote="130655383130000000" Dst="0" />
+<file name="class.Cierre.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130668736922843926" remote="130668589910000000" Dst="0" />
+<file name="class.CTipoDocumento.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130591862297456647" remote="130655383130000000" Dst="0" />
+<file name="class.CTipoMovimiento.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130641796559626776" remote="130655383130000000" Dst="0" />
+<file name="class.interface.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130427497730000000" remote="130655383130000000" Dst="0" />
+<file name="class.MantenimientoCaja.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130428424285819770" remote="130655383130000000" Dst="0" />
+<file name="class.ModContable.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130642904132809158" remote="130655383130000000" Dst="0" />
+<file name="class.Recibos.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130666504347410310" remote="130668332050000000" Dst="0" />
+<file name="class.AbonoCapital.php" server="192.168.0.6//var/www/html/sandbox/" local="130615826527509079" remote="130675453140000000" Dst="0" />
+<file name="class.Caja.php" server="192.168.0.6//var/www/html/sandbox/" local="130675216033183262" remote="130675453140000000" Dst="0" />
+<file name="class.Cierre.php" server="192.168.0.6//var/www/html/sandbox/" local="130673280046954817" remote="130675453140000000" Dst="0" />
+<file name="class.CTipoDocumento.php" server="192.168.0.6//var/www/html/sandbox/" local="130591862297456647" remote="130675453140000000" Dst="0" />
+<file name="class.CTipoMovimiento.php" server="192.168.0.6//var/www/html/sandbox/" local="130641796559626776" remote="130675453140000000" Dst="0" />
+<file name="class.interface.php" server="192.168.0.6//var/www/html/sandbox/" local="130427497730000000" remote="130675453140000000" Dst="0" />
+<file name="class.MantenimientoCaja.php" server="192.168.0.6//var/www/html/sandbox/" local="130428424285819770" remote="130675453140000000" Dst="0" />
+<file name="class.ModContable.php" server="192.168.0.6//var/www/html/sandbox/" local="130642904132809158" remote="130675453140000000" Dst="0" />
+<file name="class.Recibos.php" server="192.168.0.6//var/www/html/sandbox/" local="130673294095508406" remote="130675453140000000" Dst="0" />
+</dwsync>

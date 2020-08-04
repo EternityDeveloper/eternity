@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="delegate.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644087177927148" remote="130644161660000000" Dst="0" />
+<file name="view_detalle_inhumado.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644035572789913" remote="130644161660000000" Dst="0" />
+<file name="view_facturar.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644074156182536" remote="130644161660000000" Dst="0" />
+<file name="view_inhumacion.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644074540710867" remote="130644161660000000" Dst="0" />
+<file name="view_facturar.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130649000227225522" remote="130656412190000000" Dst="0" />
+<file name="detalle_factura_pro.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130649503317684471" remote="130656412190000000" Dst="0" />
+<file name="pdf_orden_servicio_inh.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130650277917807645" remote="130656412190000000" Dst="0" />
+<file name="view_detalle_inhumado.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130644035572789913" remote="130656412190000000" Dst="0" />
+<file name="delegate.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130650226596533621" remote="130656412180000000" Dst="0" />
+<file name="view_inhumacion.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130650182966447267" remote="130656412190000000" Dst="0" />
+<file name="delegate.php" server="192.168.0.6//var/www/html/sandbox/" local="130650226596533621" remote="130675453220000000" Dst="0" />
+<file name="detalle_factura_pro.php" server="192.168.0.6//var/www/html/sandbox/" local="130649503317684471" remote="130675453220000000" Dst="0" />
+<file name="pdf_orden_servicio_inh.php" server="192.168.0.6//var/www/html/sandbox/" local="130650277917807645" remote="130675453220000000" Dst="0" />
+<file name="view_detalle_inhumado.php" server="192.168.0.6//var/www/html/sandbox/" local="130644035572789913" remote="130675453220000000" Dst="0" />
+<file name="view_facturar.php" server="192.168.0.6//var/www/html/sandbox/" local="130649000227225522" remote="130675453220000000" Dst="0" />
+<file name="view_inhumacion.php" server="192.168.0.6//var/www/html/sandbox/" local="130650182966447267" remote="130675453220000000" Dst="0" />
+</dwsync>

@@ -1,0 +1,822 @@
+1,,,,ACTIVO
+,11,,,ACTIVO CIRCULANTE
+,111,,,EFECTIVO EN CAJA Y BANCO
+,1111,,,CAJAS
+,111101,,ID,CAJAS CHICAS
+,,11110101,F,     Caja Chica Administraccion
+,,11110102,F,     Caja Chica Parque
+,,11110103,F,     Caja Chica Cajera
+,,11110104,F,     Fondo Para Incentivos Dpto. de Cobros 
+,,11110105,F,     Caja Chica  Oficinas 27 de Febrero
+,,11110106,F,     Fondo Caja Chica Verificacion 
+,,11110107,F,     Fondo Caja Chica Gerencia
+,111102,,,CAJA GENERAL
+,,11110201,F,     Caja General
+,,11110299,NF,     Caja Gneral NF
+,111103,,,B0VEDA
+,,11110301,F,     Fondo Boveda
+,,11110399,NF,     Fondo Boveda NF
+,1112,,,BANCOS
+,111201,,,CUENTAS CORRIENTES
+,,11120101,F,     Banco BHD/ Leon US$
+,,11120102,F,     Banco de Reservas
+,,11120103,F,     Banco Smith Barney JM US
+,,11120104,F,     Banco BHD /Leon
+,,11120105,F,     Banco Popular
+,,11120106,F,     Transferencias
+,,11120107,F,     Prima en Cambio de Divisa
+,,11120108,F,     Bancamerica 
+,,11120109,F,     Banco BDI Cuenta Corriente
+,,11120151,NF,     CTB - Banco Leon NF
+,,11120152,NF,     CTB - America NF
+,,11120153,NF,     CTB America Cta. de Ahorros NF
+,,11120154,NF,     Bancamerica Cuenta de Ahorros SMD NF
+,,11120155,NF,     Banco BDI Cuenta de Ahorros NF
+,,11120156,NF,     Depositos Por Identificar NF
+,112,,,CUENTAS POR COBRAR
+,1121,,,CUENTAS POR COBRAR
+,112101,,,CLIENTES
+,,11210101,F,     M?dulo de Clientes Capital
+,,11210102,F,     M?dulo de Clientes Intereses
+,,11210151,NF,     M?dulo de Clientes NF
+,,11210152,NF,     M?dulo de Clientes Intereses
+,112102,,,CHEQUES DEVUELTOS
+,,11210201,F,     Cheques Devueltos 
+,,11210251,NF,     Cheques Devueltos NF
+,1122,,,OTRAS CUENTAS POR COBRAR
+,112201,,,COMPA?IAS RELACIONADAS
+,,11220101,F,     Universal Marketing Services
+,,11220102,F,     Compa?ia Dominicana de Servicios Generales
+,,11220103,F,     Jardin Memorial
+,,11220104,F,     Capillas Memoriales
+,,11220105,F,     Servicios de Prevision Memorial
+,,11220151,NF,     Jardin Memorial NF
+,,11220152,NF,     Capillas Memoriales NF
+,,11220153,NF,     Servicios Memoriales Dominicanos NF
+,112202,,,ACCIONISTAS
+,,11220201,F,     Realstrong
+,,11220202,F,     Gabriel E. de Pool
+,,11220203,F,     Reyna Jacqueline  Santelises Carrasco
+,,11220251,NF,     Realstrong
+,,11220252,NF,     Gabriel E. de Pool
+,,11220253,NF,     Reyna Jacqueline  Santelises Carrasco
+,112203,,,EMPLEADOS 
+,,11220301,F,     M?dulo de Empleados
+,,11220302,F,     Rendir Cuentas
+,,11220351,NF,     M?dulo de Empleados
+,,11220352,NF,     Rendir cuentas NF
+,112204,,,DIRECTORES
+,,11220401,F,     Carlos Termini
+,,11220451,NF,     Carlos Termini NF
+,112205,,,ANTICIPOS PROV./CONTRATISTAS
+,,11220501,F,     Anticipo Proveedores
+,,11220502,F,     Anticipo Contratistass
+,,11220503,F,     Importaciones en tr?nsito 
+,,11220504,F,     CXC Intercambios
+,,11220551,NF,     Anticipo Proveedores
+,,11220552,NF,     Anticipo Contratistass
+,,11220553,NF,     Importaciones en tr?nsito 
+,,11220554,NF,     CXC Intercambios
+,113,,,INVENTARIOS
+,1131,,,INVENTARIOS DE PRODUCTOS
+,113101,,,INVENTARIOS DE PRODUCTOS
+,,11310101,F,     L?pidas
+,,11310102,F,     Inventario de Folletos Jardin de Familia 
+,,11310103,F,     Inventario de Folletos Naturaleza del duelo 
+,,11310104,F,     Inventario de Caja de Restos
+,,11310151,NF,     L?pidas
+,,11310152,NF,     Inventario de Folletos Jardin de Familia 
+,,11310153,NF,     Inventario de Folletos Naturaleza del duelo 
+,,11310154,NF,     Inventario de Caja de Restos
+,1132,,,INVENTARIO DE PARCELAS
+,113201,,,TERRAZAS
+,,11320101,F,     Terraza 119
+,,11320102,F,     Terraza Las Trinitarias
+,,11320103,F,     Terraza Los Coralillos
+,,11320151,NF,     Terraza 119
+,,11320152,NF,     Terraza Las Trinitarias
+,,11320153,NF,     Terraza Los Coralillos
+,1133,,,INVENTARIO JARDINES FAMILIARES
+,113301,,,JARDINES FAMILIARES
+,,11330101,F,     Jardines Familiares 1
+,,11330102,F,     Jardines Familiares 11
+,,11330151,NF,     Jardines Familiares 1
+,,11330152,NF,     Jardines Familiares 11
+,114,,,GASTOS PAGADOS P/ANTICIPADO
+,1141,,,GASTOS PAGADOS P/ANTICIPADO
+,114101,,,ALQUILERES
+,114102,,,IMPUESTOS
+,,11410201,F,     Itbis Adelantado
+,,11410202,F,     Anticipo ISR 1.5%
+,,11410251,NF,     Itbis Adelantado
+,,11410252,NF,     Anticipo ISR 1.5%
+,114103,,,SEGUROS
+,,11410301,F,     Polizas
+,,11410302,F,     Fianzas
+,,11410351,NF,     Polizas
+,,11410352,NF,     Fianzas
+,12,,,ACTIVO FIJO
+,121,,,"PROPIEDAD, PLANTA Y EQUIPO"
+,1211,,,"PROPIEDAD, PLANTA Y EQUIPO"
+,121101,,,BIENES INMUEBLES
+,,12110101,F,     Mejoras en Prop. Arrendada
+,,12110102,F,     Edificaciones y Estructuras
+,,12110151,NF,     Mejoras en Prop. Arrendada
+,,12110152,NF,     Edificaciones y Estructuras
+,121102,,,AUTOMOVILES Y MAQUINARIAS
+,,12110201,F,     Vehiculos Livianos
+,,12110202,F,     Vehiculos Pesados
+,,12110203,F,     Maquinarias
+,,12110251,NF,     Vehiculos Livianos
+,,12110252,NF,     Vehiculos Pesados
+,,12110253,NF,     Maquinarias
+,121103,,,MUEBLES Y EQUIPOS DE OFICINA
+,,12110301,F,     Muebles y Equipos de Oficina
+,,12110302,F,     Equipos Tecnol?gicos
+,,12110351,NF,     Muebles y Equipos de Oficina
+,,12110352,NF,     Equipos Tecnol?gicos
+,121104,,,HEERAMIENTAS Y EQUIPOS MENORES
+,,12110401,F,     Herramientas y Equipos Menores
+,,12110451,NF,     Herramientas y Equipos Menores
+,122,,,DEPRECIACION ACTIVO FIJO
+,1221,,,DEPRECIACION ACUMULADA
+,122101,,,DEP. ACUM. BIENES INMUEBLES
+,,12210101,F,     Dep. Acum. Edificaciones y Estructuras
+,,12210151,NF,     Dep. Acum. Edificaciones y Estructuras
+,122102,,,DEP. ACUM. AUTOMOVILES Y MAQUINARIAS
+,,12210201,F,     Dep. Acum. Automoviles y Maquinarias
+,,12210251,NF,     Dep. Acum. Automoviles y Maquinarias
+,122103,,,DEP. ACUM. MUEBLES Y EQUIPOS DE OFICINA
+,,12210301,F,     Dep. Acum. Muebles y Equipos de Oficina
+,,12210351,NF,     Dep. Acum. Muebles y Equipos de Oficina
+,122104,,,DEP. ACUM. HERRAMIENTA Y EQUIPOS MENORES
+,,12210401,F,     Dep. Acum. Herramientas y Equipos Menores
+,,12210451,NF,     Dep. Acum. Herramientas y Equipos Menores
+,122105,,,AMORTIZACIONES
+,,12210501,F,     Amortizaci?n Mejora Prop. Arrendada
+,,12210551,NF,     Amortizaci?n Mejora Prop. Arrendada
+,13,,,CARGOS DIFERIDOS
+,131,,,CARGOS DIFERIDOS
+,1311,,,CARGOS DIFERIDOS
+,131101,,,SEGUROS
+,,13110101,F,     Fianzas
+,,13110102,F,     Polizas
+,,13110103,F,     Placas de Vehiculos
+,,13110151,NF,     Fianzas
+,,13110152,NF,     Polizas
+,,13110153,NF,     Placas de Vehiculos
+,131102,,,ALQUILERES
+,,13110201,F,     Alquileres
+,,13110251,NF,     Alquiler NF
+,131103,,,CONSTITUCION Y REGISTRO
+,,13110301,F,     Gastos Constitucion y Reg.
+,,13110351,NF,     Gastos Constitucion y Reg.
+,15,,,OTROS ACTIVOS
+,151,,,OTROS ACTIVOS
+,1511,,,OTROS ACTIVOS 
+,15111,,,OBRAS EN PROCESO
+,151111,,,MATERIALES
+,,15111101,F,     Cemento Gris
+,,15111102,F,     Varillas
+,,15111103,F,     Arena 
+,,15111104,F,     Malla
+,,15111105,F,     Grava
+,,15111106,F,     Gravilla
+,,15111107,F,     Blocks
+,,15111108,F,     Alambre
+,,15111109,F,     Grama
+,,15111110,F,     Alcantarillas
+,,15111111,F,     Cemento Blanco
+,,15111112,F,     Piedras
+,,15111113,F,     Marmol
+,,15111114,F,     Aceite Quemado
+,,15111151,NF,     Cemento Gris
+,,15111152,NF,     Varillas
+,,15111153,NF,     Arena 
+,,15111154,NF,     Malla
+,,15111155,NF,     Grava
+,,15111156,NF,     Gravilla
+,,15111157,NF,     Blocks
+,,15111158,NF,     Alambre
+,,15111159,NF,     Grama
+,,15111160,NF,     Alcantarillas
+,,15111161,NF,     Cemento Blanco
+,,15111162,NF,     Piedras
+,,15111163,NF,     Marmol
+,,15111164,NF,     Aceite Quemado
+,151112,,,MANO DE OBRA DIRECTA
+,,15111201,F,      Inversion en Trinitarias
+,,15111202,F,      Inversion en Trinitarias  Fase 2
+,,15111203,F,     Mano de obra General
+,,15111204,F,      Inversion en Trinitarias  Fase 3
+,,15111251,NF,      Inversion en Trinitarias
+,,15111252,NF,      Inversion en Trinitarias  Fase 2
+,,15111253,NF,     Mano de obra General
+,,15111254,NF,      Inversion en Trinitarias  Fase 3
+,151113,,,COSTOS INDIRECTOS
+,,15111301,F,     Inversion en Jardines 
+,,15111302,F,     Costo Pergolas
+,,15111303,F,     Materiales Indirectos
+,,15111304,F,     Alquiler Equipos
+,,15111305,F,     Combustible Equipos
+,,15111351,NF,     Inversion en Jardines 
+,,15111352,NF,     Costo Pergolas
+,,15111353,NF,     Materiales Indirectos
+,,15111354,NF,     Alquiler Equipos
+,,15111355,NF,     Combustible Equipos
+,151114,,,TERRAZA LOS CORALILLOS
+,,15111401,F,     Inversion Los Coralillos
+,,15111451,NF,     Inversion Los Coralillos
+,151115,,,VIA DEL BAMBU
+,,15111501,F,     Inversion Via Bambu
+,,15111551,NF,     Inversion Via Bambu
+,152,,,AMORTIZACION OBRAS
+,1521,,,AMORTIZACION DE OBRAS
+,152101,,,AMORTIZACION DE OBRAS
+,,15210101,F,     Amortizacion Obras Generales
+,,15210151,NF,     Amortizacion Obras Generales
+2,,,,PASIVOS
+,21,,,PASIVO CIRCULANTE
+,211,,,DOCUMENTOS Y CUENTAS POR PAGAR
+,2111,,,DOCUMENTOS POR PAGAR
+,2112,,,CUENTAS POR PAGAR
+,211201,,,COMERCIALES
+,,21120101,F,     M?dulo de Proveedores
+,,21120102,F,     Suplidores Internacionales 
+,,21120151,NF,     M?dulo de Proveedores
+,,21120152,NF,     Suplidores Internacionales 
+,2113,,,OTRAS CUENTAS POR PAGAR
+,211301,,,COMPA?IAS RELACIONADAS
+,,21130101,F,     Compa?ia Dominicana de Servicios Generales
+,,21130102,F,     Universal Marketing Services
+,,21130103,F,     Jardin Memorial
+,,21130104,F,     Servicios Memoriales Dominicanos 
+,,21130105,F,     Cuenta en participacion (Jadin Memorial)
+,,21130151,NF,     Compa?ia Dominicana de Servicios Generales
+,,21130152,NF,     Universal Marketing Services
+,,21130153,NF,     Jardin Memorial
+,,21130154,NF,     Servicios Memoriales Dom.  NF
+,,21130155,NF,     Cuenta en participacion (Jadin Memorial)
+,211302,,,ACCIONISTAS
+,,21130201,F,"     Realstrong Corporation, LTD"
+,,21130202,F,     Ing. Armando Armenteros S.
+,,21130251,NF,"     Realstrong Corporation, LTD"
+,,21130252,NF,     Ing. Armando Armenteros S.
+,211303,,,CUENTAS POR PAGAR DIRECTORES
+,,21130301,F,     Dr. Carlos Termini B.
+,,21130351,NF,     CTB Financiera  NF
+,211304,,,OTRAS 
+,,21130401,F,     Anticipos Recibidos de Clientes
+,,21130402,F,     Cuentas por Pagar por Anulaciones Contratos
+,,21130403,F,     Depositos por Identificar 
+,,21130451,NF,     Anticipos Recibidos de Clientes
+,,21130452,NF,     Cuentas por Pagar por Anulaciones Contratos
+,,21130453,NF,     Depositos por Identificar 
+,2114,,,RETENCIONES Y ACUM. POR PAGAR
+,211401,,,IMPUESTOS POR PAGAR
+,,21140101,F,     ISR Compa??a
+,,21140102,F,     Activos Imponibles
+,,21140151,NF,     ISR Compa??a
+,,21140152,NF,     Activos Imponibles
+,211402,,,RETENCIONES
+,,21140201,F,     Ret. ISR a P. F.
+,,21140202,F,     Ret. ISR a Compa??as
+,,21140203,F,     Itbis retenido P. F.
+,,21140204,F,     Itbis retenido Compa??as
+,,21140205,F,     Infotep
+,,21140206,F,     Anticipos por Pagar
+,,21140207,F,     Itbis por Pagar
+,,21140208,F,     Retencion  ISR Funcionarios y Empleados
+,211403,,,ACUMULACIONES POR PAGAR
+,,21140301,F,     N?minas por Pagar
+,,21140302,F,     Horas extras por pagar
+,,21140303,F,     Seguridad Social por Pagar
+,,21140304,F,     Retencion Seguridad Social
+,,21140305,F,     Retencion Plan Pensiones
+,,21140306,F,     Seguro de Riesgos Laborales
+,,21140307,F,     Comisiones Por Pagar 
+,,21140308,F,     Comision / Cobros por pagar 
+,,21140309,F,     Incentivos Por Pagar  
+,,21140310,F,     Incentivos Por Pagar de Cobros 
+,,21140311,F,     Tarjeta de Credito Por Pagar
+,,21140312,F,     Tarjeta de Credito Por Pagar US$
+,,21140313,F,     Prima Tarjeta de credito x pagar
+,,21140351,NF,     N?minas por Pagar
+,,21140302,NF,     Horas extras por pagar
+,,21140303,NF,     Seguridad Social por Pagar
+,,21140304,NF,     Retencion Seguridad Social
+,,21140305,NF,     Retencion Plan Pensiones
+,,21140306,NF,     Seguro de Riesgos Laborales
+,,21140307,NF,     Comisiones Por Pagar 
+,,21140308,NF,     Comision / Cobros por pagar 
+,,21140309,NF,     Incentivos Por Pagar  
+,,21140310,NF,     Incentivos Por Pagar de Cobros 
+,,21140311,NF,     Tarjeta de Credito Por Pagar
+,,21140312,NF,     Tarjeta de Credito Por Pagar US$
+,,21140313,NF,     Prima Tarjeta de credito x pagar
+,22,,,PASIVOS A LARGO PLAZO
+,221,,,PASIVOS A LARGO PLAZO
+,2211,,,PASIVOS A LARGO PLAZO
+,221101,,,ACCIONISTAS
+,,22110101,F,"     Realstrong Corporation, LTD"
+,,22110101,NF,"     Realstrong Corporation, LTD"
+,221102,,,BANCARIOS
+,,22110201,F,     Prestamo Bancamerica
+,,22110202,F,     Prestamo BDI
+,23,,,INGRESOS DIFERIDOS
+,231,,,INGRESOS DIFERIDOS
+,2311,,,INGRESOS DIFERIDOS
+,231101,,,CONTRATOS
+,,23110151,,Capital
+,,23110101,,Ingresos iferidos Capital
+,231102,,,DESCUENTOS
+,,23110201,,Descuentos
+,,23110251,,Descuentos
+,231103,,,INTERESES FINANCIAMIENTO
+,,23110301,,Intereses Financiamiento
+,,23110351,,Intereses Financiamiento
+3,,,,CAPITAL
+,31,,,CAPITAL
+,311,,,CAPITAL
+,3111,,,CAPITAL SOCIAL
+,311101,,,ACCIONISTAS 
+,,31110101,F,"     Realstrong Corporation, LTD"
+,,31110102,F,     Gabriel E. de Pool
+,,31110103,F,     Reyna Jacqueline Santelises Carrasco
+,3112,,,RESERVAS
+,311201,,,RESERVA LEGAL
+,,31120101,F,     Reserva Legal
+,,,NF,
+,3113,,,UTILIDADES DEL PERIODO
+,311301,,,UTILIDADES DEL PERIODO
+,,31130101,F,     Utilidades del Periodo
+,,31130101,NF,     Utilidades del Periodo
+,3114,,,UTILIDADES ACUMULADAS (PERDIDAS)
+,311401,,,UTILIDADES ACUMULADAS (PERDIDAS)
+,,31140101,F,     Utilidades Acumuladas (P?rdidas)
+,,31140102,F,     Ajustes A?os Anteriores
+,,31140151,NF,     Utilidades Acumuladas (P?rdidas)
+,,31140152,NF,     Ajustes A?os Anteriores
+4,,,,INGRESOS
+,41,,,INGRESOS
+,411,,,INGRESOS PARCELAS / JARDINES FAMILIARES
+,4111,,,INGRESOS PARCELAS / JARDINES FAMILIARES
+,411101,,,INGRESOS POR PRODUCTOS
+,,41110101,F,     Contado
+,,41110102,F,     Credi-Contado
+,,41110103,F,     Cr?dito
+,,41110104,F,     Necesidad Inmediata
+,,41110151,NF,     Contado
+,,41110152,NF,     Credi-Contado
+,,41110153,NF,     Cr?dito
+,,41110154,NF,     Necesidad Inmediata
+,411102,,,DEVOLUCIONES Y DESCUENTOS
+,,41110201,F,     Descuento en Ventas
+,,41110202,F,     Devolucion en Ventas 
+,,41110203,F,     Descuento en Ventas por Condonacion de Deuda
+,,41110204,F,     Descuentos Por Servicios
+,,41110251,NF,     Descuento en Ventas
+,,41110252,NF,     Devolucion en Ventas 
+,,41110253,NF,     Descuento en Ventas por Condonacion de Deuda
+,411103,,,COBRANZAS
+,,41110301,F,     Cuotas de financiamiento
+,,41110302,F,     Cuotas Servicios Funerarios
+,,41110351,NF,     Cuotas de financiamiento
+,,41110352,NF,     Cuotas Servicios Funerarios
+,411104,,,INGRESOS POR SERVICIOS
+,,41110401,F,     Servicios de Inhumaci?n
+,,41110402,F,     Servicios de Exhumacion
+,,41110403,F,     Mantenimiento 
+,,41110451,NF,     Servicios de Inhumaci?n
+,,41110452,NF,     Servicios de Exhumacion
+,,41110453,NF,     Mantenimiento 
+,411105,,,REINTEGROS
+,,41110501,F,     Reintegros
+,,41110551,NF,     Reintegros
+,412,,,INGRESOS FINANCIEROS
+,4121,,,INGRESOS FINANCIEROS
+,412101,,,BANCARIOS
+,,41210101,F,     Intereses Bancarios
+,,41210151,NF,     Intereses Bancarios
+,412102,,,CONTRATOS
+,,41210201,F,     Fluctuacion Cambiaria
+,,41210202,F,     Intereses de Financiamiento
+,,41210203,F,     Mora
+,,41210204,F,     Penalizaci?n por Reactivaci?n de Contrato
+,,41210205,F,     Gastos Administrativos
+,,41210251,NF,     Fluctuacion Cambiaria
+,,41210252,NF,     Intereses de Financiamiento
+,,41210253,NF,     Mora
+,,41210254,NF,     Penalizaci?n por Reactivaci?n de Contrato
+,,41210255,NF,     Gastos Administrativos
+,412103,,,OTROS
+,,41210301,F,     Otros Ingresos
+,,41210351,NF,     Otros Ingresos
+5,,,,COSTOS
+,51,,,COSTOS
+,511,,,COSTO DE VENTAS
+,5111,,,COSTO DE VENTAS
+,511101,,,COSTO DE VENTAS
+,,51110101,,     Costo de Ventas
+,512,,,COSTOS FABRICACION PARCELAS
+,5121,,,PARCELAS Y JARDINES DE FAMILIA
+,512101,,,MATERIALES DIRECTOS
+,,51210101,,     Cementos 
+,,51210102,,     Varillas Y Malla
+,,51201103,,     Arena y Gravilla
+,,51210104,,     Granzote
+,,51210105,,     Aceite Quemado
+,,51210106,,     Blocks 
+,,51210107,,     Piedras
+,,51210108,,     Alambre Dulce
+,,51210109,,     Materiales jardines y lapidas
+,512102,,,MANO DE OBRA
+,,51210201,,     Sueldo
+,,51210202,,     Horas Extras
+,,51210203,,     Ayuda de Transporte y Alimentaci?n
+,,51210204,,     Carga Social
+,,51210205,,     Dotaciones
+,,51210206,,     Servicios Contratados
+,512103,,,SERVICIOS ASOCIADOS A LA PRODUCCION
+,,51210301,,     Agua Potable
+,,51210302,,     Electricidad
+,,51210303,,     Alquiler de Maquinarias
+,,51210304,,     Seguro de Impacto Ambiental
+,,51210305,,     Combustible y Lubricantes
+,,51210306,,     Reparaci?n y Mantto. de Equipos
+,,51210307,,     Jardinizacion Jardines 
+,512104,,,COSTOS DE PARCELAS 
+,,51210401,,     Costos Estimados de Parcelas NF
+6,,,,GASTOS
+,61,,,GASTOS
+,611,,,GASTOS OPERATIVOS
+,6111,,,GASTOS DE PERSONAL
+,611101,,,SUELDOS Y SALARIOS
+,,61110101,F,     Sueldos Funcionarios y Empleados
+,,61110102,F,     Horas Extras
+,,61110103,F,     Dia no Laborable
+,,61110104,F,     Ajustero o Temporero 
+,,61110105,F,     Sueldos de Directores 
+,,61110106,F,     Ajuste de Sueldos por Produccion 
+,,61110151,NF,     Sueldos Funcionarios y Empleados
+,,61110152,NF,     Horas Extras
+,,61110153,NF,     Dia no Laborable
+,,61110154,NF,     Ajustero o Temporero NF
+,,61110155,NF,     Sueldos de Directores NF
+,,61110156,NF,     Ajuste de Sueldos por Produccion NF
+,611102,,,BENEFICIOS AL PERSONAL
+,,61110201,F,     Vacaciones
+,,61110202,F,     Regalia Pascual
+,,61110203,F,     Bonificaciones
+,,61110204,F,     Cesantia
+,,61110205,F,     Preaviso
+,,61110206,F,     Seguridad Social
+,,61110207,F,     Comisi?n s/Cobros
+,,61110208,F,     Incentivos x Cobros 
+,,61110209,F,     Prestaciones Laborales 
+,,61110251,NF,     Vacaciones
+,,61110252,NF,     Regalia Pascual
+,,61110253,NF,     Bonificaciones
+,,61110254,NF,     Cesantia
+,,61110255,NF,     Preaviso
+,,61110256,NF,     Seguridad Social
+,,61110257,NF,     Comisi?n s/Cobros
+,,61110258,NF,     Incentivos x Cobros 
+,,61110259,NF,     Prestaciones Laborales NF
+,611103,,,GASTOS DEL PERSONAL
+,,61110301,F,     Atenciones al Personal
+,,61110302,F,     Gastos de Representaci?n /Estadia 
+,,61110303,F,     Capacitacion al Personal Adm.
+,,61110304,F,     Gastos de Viajes 
+,,61110305,F,     Gastos de Combustible
+,,61110306,F,     Viaticos
+,,61110307,F,     Gastos Medicos
+,,61110308,F,     Uniformes
+,,61110309,F,     Seguro Medico
+,,61110310,F,     Movilizacion y Transporte
+,,61110311,F,     Retenciones Plan Pension
+,,61110312,F,     Reclutamiento y Seleccion Pers
+,,61110313,F,     Seguro Riesgos Laborales
+,,61110314,F,     Infotep
+,,61110315,F,     Obsequio
+,,61110316,F,     Propina
+,,61110317,F,     Gastos Navide?os
+,,611103051,NF,     Atenciones al Personal
+,,61110352,NF,     Gastos de Representaci?n /Estadia NF
+,,61110353,NF,     Capacitacion al Personal Adm.
+,,61110354,NF,     Gastos de Viajes 
+,,61110355,NF,     Gastos de Combustible
+,,61110356,NF,     Viaticos
+,,61110357,NF,     Gastos Medicos
+,,61110358,NF,     Uniformes
+,,61110359,NF,     Seguro Medico
+,,61110360,NF,     Movilizacion y Transporte
+,,61110361,NF,     Retenciones Plan Pension
+,,61110362,NF,     Reclutamiento y Seleccion Pers
+,,61110363,NF,     Seguro Riesgos Laborales
+,,61110364,NF,     Infotep
+,,61110365,NF,     Obsequio
+,,61110366,NF,     Propina
+,,61110367,NF,     Gastos Navide?os
+,611104,,,REPARACIONES Y MANTENIMIENTOS
+,,61110401,F,     Mantenimiento Vehiculos
+,,61110402,F,     Servicios Fumigacion y control de plagas
+,,61110401,NF,     Mantenimiento Vehiculos
+,,61110402,NF,     Servicios Fumigacion y control de plagas
+,6112,,,SERVICIOS GENERALES
+,611201,,,SERVICIOS GENERALES
+,,61120101,F,     Telefonos
+,,61120102,F,     Energia Electrica
+,,61120103,F,     Agua/Hielo
+,,61120104,F,     Basura
+,,61120105,F,     Gasto de Internet
+,,61120106,F,     Gastos de Inhumacion y otras Actividades
+,,61120107,F,     Servicio de Agua
+,,61120108,F,     Energia Electrica Oficinas 27 de Febrero 
+,,61120109,F,     Otros Gastos 
+,,61120151,NF,     Telefonos
+,,61120152,NF,     Energia Electrica
+,,61120153,NF,     Agua/Hielo
+,,61120154,NF,     Basura
+,,61120155,NF,     Gasto de Internet
+,,61120156,NF,     Gastos de Inhumacion y otras Actividades
+,,61120157,NF,     Servicio de Agua
+,,61120158,NF,     Energia Electrica Oficinas 27 de Febrero NF
+,,61120159,NF,     Otros Gastos NF
+,611202,,,REPARACIONES Y MANTENIMIENTOS
+,,61120201,F,     Mantenimiento Equipo de Oficina
+,,61120202,F,     Mantenimiento Oficina
+,,61120203,F,     Mantenimiento Planta Electrica
+,,61120204,F,     Mantenimiento camion
+,,61120205,F,     Mantenimiento Motor
+,,61120206,F,     Mantenimiento Aire Acondicionados
+,,61120207,F,     Mantenimento Equipos Menores
+,,61120208,F,     Mantenimiento Retropala
+,,61120209,F,     Mantenimiento Tractor Agricola
+,,61120210,F,     Mantenimiento Parque
+,,61120211,F,     Mantenimiento Trompo - Gasolina 
+,,61120212,F,     Mantenimiento Electrico 
+,,61120213,F,     Mantenimiento Residencia de familia
+,,61120214,F,     Mantenimiento Vehiculos livianos
+,,61120215,F,     Mantenimiento de Apartamentos  
+,,61120216,F,     Reparacion Planta Electrica
+,,61120217,F,     Reparacion Equipos Menores
+,,61120218,F,     Reparacion Retropala
+,,61120219,F,     Reparacion Tractor Agricola
+,,61120220,F,     Reparacion Trompo - Gasoil
+,,61120251,NF,     Mantenimiento Equipo de Oficina
+,,61120252,NF,     Mantenimiento Oficina
+,,61120253,NF,     Mantenimiento Planta Electrica
+,,61120254,NF,     Mantenimiento camion
+,,61120255,NF,     Mantenimiento Motor
+,,61120256,NF,     Mantenimiento Aire Acondicionados
+,,61120257,NF,     Mantenimento Equipos Menores
+,,61120258,NF,     Mantenimiento Retropala
+,,61120259,NF,     Mantenimiento Tractor Agricola
+,,61120260,NF,     Mantenimiento Parque
+,,61120261,NF,     Mantenimiento Trompo - Gasolina 
+,,61120262,NF,     Mantenimiento Electrico 
+,,61120263,NF,     Mantenimiento Residencia de familia
+,,61120264,NF,     Mantenimiento Vehiculos livianos
+,,61120265,NF,     Mantenimiento de Apartamentos  
+,,61120266,NF,     Reparacion Planta Electrica
+,,61120267,NF,     Reparacion Equipos Menores
+,,61120268,NF,     Reparacion Retropala
+,,61120269,NF,     Reparacion Tractor Agricola
+,,61120270,NF,     Reparacion Trompo - Gasoil
+,611203,,,ALQUILERES
+,,61120301,F,     Alquiler Oficina
+,,61120302,F,     Alquiler Equipos
+,,61120303,F,     Alquiler Parqueo Oficina 27 de Febrero 
+,,61120310,F,     Alquiler Apartamento
+,,61120351,NF,     Alquiler Oficina
+,,61120352,NF,     Alquiler Equipos
+,,61120353,NF,     Alquiler Parqueo Oficina 27 de Febrero NF
+,,61120354,NF,     Alquiler Apartamento
+,611204,,,SERVICIOS CONTRATADOS
+,,61120401,F,     Honorarios Profesionales
+,,61120402,F,     Gastos Legales
+,,61120403,F,     Auditor?a y Contabilidad
+,,61120404,F,     Proyecto Sistema / Eddy Arevalo 
+,,61120405,F,     Soporte Tecnico / Informatico 
+,,61120406,F,     Soporte Redes Sociales
+,,61120407,F,     Suscripciones y Afiliaciones
+,,61120408,F,     Envio de Valores
+,,61120409,F,     Otros servicios contratados
+,,61120451,NF,     Honorarios Profesionales
+,,61120452,NF,     Gastos Legales
+,,61120453,NF,     Auditor?a y Contabilidad
+,,61120454,NF,     Proyecto Sistema / Eddy Arevalo 
+,,61120455,NF,     Soporte Tecnico / Informatico 
+,,61120456,NF,     Soporte Redes Sociales
+,,61120457,NF,     Suscripciones y Afiliaciones
+,,61120458,NF,     Envio de Valores
+,,61120459,NF,     Otros servicios contratados
+,611205,,,DEPRECIACIONES
+,,61120501,F,     Depreciaciones
+,,61120551,NF,     Depreciaciones
+,611206,,,GASTOS GENERALES
+,,61120601,F,     Material Gastable
+,,61120602,F,     Material de Limpieza y Cocina
+,,61120603,F,"     Fotocopias, Encuadern. y Plast"
+,,61120604,F,     Utensilios de Cocina
+,,61120605,F,     Impresos 
+,,61120606,F,     Carnet empleados y visitantes
+,,61120607,F,     Placas de Vehiculos 
+,,61120608,F,     Cuentas Incobrables
+,,61120609,F,     Condonacion de Deuda a Clientes
+,,61120610,F,     Gastos Itbis Adelantdo
+,,61120611,F,     Otros Gastos
+,,61120651,NF,     Material Gastable
+,,61120652,NF,     Material de Limpieza y Cocina
+,,61120653,NF,"     Fotocopias, Encuadern. y Plast"
+,,61120654,NF,     Utensilios de Cocina
+,,61120655,NF,     Impresos 
+,,61120656,NF,     Carnet empleados y visitantes
+,,61120657,NF,     Placas de Vehiculos 
+,,61120658,NF,     Cuentas Incobrables
+,,61120659,NF,     Condonacion de Deuda a Clientes
+,,61120660,NF,     Gastos Itbis Adelantdo
+,,61120661,NF,     Otros Gastos
+,612,,,GASTOS DE VENTAS
+,6121,,,PUBLICIDAD Y MERCADEO
+,612101,,,OCHO PILARES 
+,,61210101,F,     AML (An?lisis Mercadol?gico Local)
+,,61210102,F,     AMT (An?lisis Mercadol?gico Telef?nico)
+,,61210103,F,     Stand de Presentaci?n
+,,61210104,F,     ETC (Entrega de Titulos y Certificados de Cancelaci?n) 
+,,61210105,F,     Programa de Referidos
+,,61210106,F,     Turnos
+,,61210107,F,     Cliente Meta
+,,61210108,F,     Eventos de RRPP
+,,61210109,F,     Manejo de  Duelo
+,,61210110,F,     Relaciones Publicas
+,,61210111,F,     Publicidad 
+,,61210112,F,     Capacitacion Personal de Ventas  
+,,61210151,NF,     AML (An?lisis Mercadol?gico Local)
+,,61210152,NF,     AMT (An?lisis Mercadol?gico Telef?nico)
+,,61210153,NF,     Stand de Presentaci?n
+,,61210154,NF,     ETC (Entrega de Titulos y Certificados de Cancelaci?n) 
+,,61210155,NF,     Programa de Referidos
+,,61210156,NF,     Turnos
+,,61210157,NF,     Cliente Meta
+,,61210158,NF,     Eventos de RRPP
+,,61210159,NF,     Manejo de  Duelo
+,,61210160,NF,     Relaciones Publicas
+,,61210161,NF,     Publicidad 
+,,61210162,NF,     Capacitacion Personal de Ventas  
+,612102,,,MATERIAL IMPRESO PARA VENTA 
+,,61210201,F,     Folletos de Productos 
+,,61210202,F,     Impresos para Presentacion de Ventas
+,,61210251,NF,     Folletos de Productos 
+,,61210252,NF,     Impresos para Presentacion de Ventas
+,612103,,,MEDIOS MASIVOS DE COMUNICACIŒN
+,,61210301,F,     Medios Radiales 
+,,61210302,F,     Medios Impresos 
+,,61210303,F,     Medios Televisivos 
+,,61210304,F,     Rotulacion y Otros 
+,,61210351,NF,     Medios Radiales 
+,,61210352,NF,     Medios Impresos 
+,,61210353,NF,     Medios Televisivos 
+,,61210354,NF,     Rotulacion y Otros 
+,612104,,,IMAGEN Y MARCA
+,,61210401,F,     Dise?o y Creatividad
+,,61210451,NF,     Dise?o y Creatividad NF
+,6122,,,REMUNERACIONES
+,612201,,,COMISIONES S/VENTA
+,,61220101,F,     Comisiones de Asesor 
+,,61220102,F,     Comision de Supervisor 
+,,61220103,F,     Comision de Director
+,,61220104,F,     Comisiones de Gerente 
+,,61220105,F,     Comision de Supervisores - 
+,,61220106,F,     Comision por referidos 
+,,61220107,F,     Base de Gerente 
+,,61220108,F,     Base de Director
+,,61220109,F,     Base de Supervisor
+,,61220110,F,     Incentivo Supervisores
+,,61220111,F,     Incentivo de Gerente  
+,,61220112,F,     Incentivo a Asesor - 
+,,61220113,F,     Incentivo Supervisores 
+,,61220114,F,     Incentivos Asesor
+,,61220115,F,     Auxilio de Asesor por Produccion 
+,,61220116,F,     Auxilio de Asesor Nuevo ingreso
+,,61220117,F,     Reclutamiento y Capacitacion de Ventas
+,,61220118,F,     Decoracion Oficinas 27 de Febrero 
+,,61220119,F,     Ajuste de Comision Asesores NF
+,,61220120,F,     Boletos Aereos Dpto. de Ventas 
+,,61220121,F,     Gastos Por Lanzamiento de Incentivos 
+,,61220122,F,     Atencion Personal de Ventas
+,,61220151,NF,     Comisiones de Asesor 
+,,61220152,NF,     Comision de Supervisor 
+,,61220153,NF,     Comision de Director
+,,61220154,NF,     Comisiones de Gerente 
+,,61220155,NF,     Comision de Supervisores - 
+,,61220156,NF,     Comision por referidos 
+,,61220157,NF,     Base de Gerente 
+,,61220158,NF,     Base de Director
+,,61220159,NF,     Base de Supervisor
+,,612201160,NF,     Incentivo Supervisores
+,,61220161,NF,     Incentivo de Gerente  
+,,61220162,NF,     Incentivo a Asesor - 
+,,61220163,NF,     Incentivo Supervisores 
+,,61220164,NF,     Incentivos Asesor
+,,61220165,NF,     Auxilio de Asesor por Produccion 
+,,61220166,NF,     Auxilio de Asesor Nuevo ingreso
+,,61220167,NF,     Reclutamiento y Capacitacion de Ventas
+,,61220168,NF,     Decoracion Oficinas 27 de Febrero 
+,,61220169,NF,     Ajuste de Comision Asesores NF
+,,61220170,NF,     Boletos Aereos Dpto. de Ventas 
+,,61220171,NF,     Gastos Por Lanzamiento de Incentivos 
+,,61220172,NF,     Atencion Personal de Ventas
+,612202,,,OTROS GASTOS DE VENTA
+,,61220201,F,     Atencion a Clientes
+,,61220202,F,     Atencion a Visitas
+,,61220203,F,     Branding Internacional - 
+,,61220204,F,     Centro de Atencion al Cliente
+,,61220251,NF,     Atencion a Clientes
+,,61220252,NF,     Atencion a Visitas
+,,61220253,NF,     Branding Internacional - NF
+,,61220254,NF,     Centro de Atencion al Cliente
+,613,,,OTROS GASTOS
+,613101,,,SERVICIOS CONTRATADOS
+,,61310101,F,     Paisajismo
+,,61310102,F,     Adolph Gottschalk - 
+,,61310103,F,     Jardinizacion Terrazas
+,,61310151,NF,     Paisajismo
+,,61310152,NF,     Adolph Gottschalk - NF
+,,61310153,NF,     Jardinizacion Terrazas
+,613102,,,DEPRECIACIONES Y AMORTIZACIONES
+,,61310201,F,     Amortizaci?n Residencia Familiar
+,,61310202,F,     Depreciacion Activos Fijos
+,,61310203,F,     Amortizacion de Obras
+,,61310251,NF,     Amortizaci?n Residencia Familiar
+,,61310252,NF,     Depreciacion Activos Fijos
+,,61310253,NF,     Amortizacion de Obras
+,613103,,,GASTOS GENERALES
+,,61310301,F,     Material de Limpieza
+,,61310302,F,     Combustible Equipos Menores
+,,61310303,F,     Jardineria y Ornato
+,,61310304,F,     Combustible Eqs.Alquilados
+,,61310305,F,     Combustible Equipos Pesados
+,,61310306,F,     Herramientas Menores
+,,61310307,F,     Combustible Planta electrica
+,,61310308,F,     Combustible  Vehiculos.
+,,61310309,F,     Vivero
+,,61310310,F,     Analisis de Agua y Otros en el Parque 
+,,61310311,F,     Gasto de Herreria
+,,61310312,F,     Seguros Generales
+,,61310313,F,     Gastos Institucionales  
+,,61310315,F,     Licencia para Operacion del Parque 
+,,61310316,F,     Gastos en Isleta Frente al Parque 
+,,61310317,F,     Comision del 5% a Faprouasd
+,,61310318,F,     Contribuciones y Donaciones  
+,,61310319,F,     Seguro de Vida - Clientes
+,,61310320,F,     Gasto por perdida  o Robo 
+,,61310321,F,     Otros Impuestos
+,,61310322,F,     Otros Gastos
+,,61310301,NF,     Material de Limpieza
+,,61310302,NF,     Combustible Equipos Menores
+,,61310303,NF,     Jardineria y Ornato
+,,61310304,NF,     Combustible Eqs.Alquilados
+,,61310305,NF,     Combustible Equipos Pesados
+,,61310306,NF,     Herramientas Menores
+,,61310307,NF,     Combustible Planta electrica
+,,61310308,NF,     Combustible  Vehiculos.
+,,61310309,NF,     Vivero
+,,61310310,NF,     Analisis de Agua y Otros en el Parque 
+,,61310311,NF,     Gasto de Herreria
+,,61310312,NF,     Seguros Generales
+,,61310313,NF,     Gastos Institucionales  - NF
+,,61310315,NF,     Licencia para Operacion del Parque - NF
+,,61310316,NF,     Gastos en Isleta Frente al Parque 
+,,61310317,NF,     Comision del 5% a Faprouasd
+,,61310318,NF,     Contribuciones y Donaciones  
+,,61310319,NF,     Seguro de Vida - Clientes
+,,61310320,NF,     Gasto por perdida  o Robo 
+,,61310321,NF,     Otros Impuestos
+,,61310322,NF,     Otros Gastos
+,613,,,GASTOS FINANCIEROS
+,6131,,,GASTOS FINANCIEROS
+,613101,,,BANCARIOS
+,,61310101,F,     Intereses Por Prestamos
+,,61310102,F,     Comisiones Bancarias
+,,61310103,F,     Comision Tarjeta de Credito
+,,61310104,F,     Comisiones Bancarias Personales 
+,,61310151,NF,     Intereses Por Prestamos
+,,61310152,NF,     Comisiones Bancarias
+,,61310153,NF,     Comision Tarjeta de Credito
+,,61310154,NF,     Comisiones Bancarias Personales - NF
+,613102,,,COMERCIALES
+,,61310201,F,     Intereses
+,,61310202,F,     Comisiones
+,,61310203,F,     Fluctuacion Cambiaria
+,,61310201,NF,     Intereses
+,,61310202,NF,     Comisiones
+,,61310203,NF,     Fluctuacion Cambiaria
+,614,,,Gastos exrtraordinarios
+,6141,,,Gastos exrtraordinarios
+,614101,,,Gastos exrtraordinarios
+,,61410101,F,     Ganancia y/o Perdida en venta de Activos
+,,61410101,F,     Partidas Extraordinarias (Cuenta en participacion)
+,,61410151,NF,     Ganancia y/o Perdida en venta de Activos
+,,61410151,NF,     Partidas Extraordinarias (Cuenta en participacion)

@@ -1,0 +1,415 @@
+<?php
+ 
+ if (!isset($protect)){
+	exit;
+ }
+  
+ if (isset($_REQUEST['view'])){
+	include ("view/pl_periodo_cierre.php");
+	exit;	
+ }
+ 
+ if (isset($_REQUEST['anular_trans'])){
+	include ("view/pl_anular_mov.php");
+	exit;	
+ }
+ 
+ if (isset($_REQUEST['procesar_anulacion'])){
+	if (isset($_REQUEST['id'])){
+		$registro=System::getInstance()->Decrypt($_REQUEST['id']);
+		$comentario=$_REQUEST['comentario'];
+		
+		$sql = "select COUNT(*) AS total,
+		 				MAX(monto)AS monto,
+						MAX(codigo_asesor) AS codigo_asesor
+				 from cm_detplanilla_asesor_tbl 
+					   where numregistro = '" .$registro."'"; 
+ 
+		 $rsRegistro  = mysql_query($sql);
+		 $rr = mysql_fetch_assoc($rsRegistro); 
+		 if ($rr['total']>0){
+  			SystemHtml::getInstance()->includeClass("planillas","DescuentoComision");
+			$comi= new DescuentoComision(self::$db_link);  											 	 
+			$detalle=$comi->aplicarSaldo(0,
+										 $rr['codigo_asesor'],
+										 "ANULACION DESCUENTO DETALLE ID=".$registro." ".$comentario,
+										 UserAccess::getInstance()->getIDNIT(),
+										 'ND',
+										 $rr['monto']);
+										 
+			mysql_query("delete from cm_detplanilla_asesor_tbl where numregistro='".$registro."'");	
+			$retur['mensaje']= "Registro Insertado Correctamente!";		
+			echo json_encode($retur);						 
+			exit;
+		 } 
+	}
+	
+	
+	$retur['mensaje']= "Error, registro no agregado Correctamente!";	
+	echo json_encode($retur);		
+	exit;	
+ } 
+ 
+ 
+ 
+ 
+ $anio           = isset($_REQUEST['anio'])   ? System::getInstance()->Decrypt($_REQUEST['anio'])    : 0; 
+ $usuario        = UserAccess::getInstance()->getID();
+ $fechau         = date("Y/m/d"); 
+ $codigo_asesor  = isset($_REQUEST['idasesor'])? System::getInstance()->Decrypt($_REQUEST['idasesor']) : 0;
+
+ $mes         = isset($_REQUEST['periodo'])? System::getInstance()->Decrypt($_REQUEST['periodo']) : 0;
+ $tipo_cierre = isset($_REQUEST['type'])   ? System::getInstance()->Decrypt($_REQUEST['type'])    : 0;
+   
+ 
+  if ( (isset($_REQUEST['accion']) && $_REQUEST['accion'] === "INSERT") ){
+   SystemHtml::getInstance()->includeClass("planillas","DescuentoComision");
+   
+   if (!is_numeric($_REQUEST['monto'])){
+		$retur['mensaje']= "Error,Debe de ingresar un monto!";	
+		echo json_encode($retur);
+		exit;
+   }
+	
+   $insert = "insert into cm_detplanilla_asesor_tbl ( anio,
+	                                             mes,
+												 tipo_cierre,
+												 codigo_asesor,
+												 idconcepto,
+												 monto,
+												 usuario,
+												 fechau )
+									    values (".$anio.","
+										         .$mes.",'"
+												 .$tipo_cierre."',"
+												 .$codigo_asesor.","
+												 .$_REQUEST['idconcepto'].","
+												 .$_REQUEST['monto'].",'"
+												 .$usuario."','"
+												 .$fechau."')";	
+
+
+	$comi= new DescuentoComision(self::$db_link);  											 	 
+	$insDatos = mysql_query($insert);
+	$id=mysql_insert_id();
+	if ($id>0){
+		$detalle=$comi->aplicarSaldo(0,
+									 $codigo_asesor,
+									 "NC DESCUENTO ANULADOS DETALLE ID=".$id,
+									 UserAccess::getInstance()->getIDNIT(),
+									 'NC',
+									 -1*$_REQUEST['monto']);		
+		$retur['mensaje']= "Registro Insertado Correctamente!";	
+	}else{
+		$retur['mensaje']= "Error, registro no agregado Correctamente!";	
+	}
+	echo json_encode($retur);
+	exit;
+				
+ }
+ 
+  if ( (isset($_REQUEST['accion']) && $_REQUEST['accion'] === "EDIT") ){
+	 $numregistro = isset($_REQUEST['id'])   ? System::getInstance()->Decrypt($_REQUEST['id'])    : 0; 
+	  
+	 $upd = "update cm_detplanilla_asesor_tbl
+	            set monto = ".$_REQUEST['monto']." where numregistro = " .$numregistro;
+				  
+	 
+	 $updDatos = mysql_query($upd);
+	 $retur['mensaje']= "Registro Insertado Correctamente!";		
+	 echo json_encode($retur);
+	 exit;	  
+  }
+ 
+ SystemHtml::getInstance()->addTagScript("script/jquery.dataTables.js");
+  
+ SystemHtml::getInstance()->addTagStyle("css/demo_page.css");
+ SystemHtml::getInstance()->addTagStyle("css/demo_table.css");
+  
+ SystemHtml::getInstance()->addTagScript("script/jquery.showLoading.min.js");
+ SystemHtml::getInstance()->addTagScript("script/jquery.blockUI.js");
+ SystemHtml::getInstance()->addTagScript("script/jquery.formatCurrency-1.4.0.js");
+ 
+ SystemHtml::getInstance()->addTagScript("script/Class.js");
+ SystemHtml::getInstance()->addTagScript("script/jquery.form.js");
+ SystemHtml::getInstance()->addTagScript("script/jquery.validate.js");
+ SystemHtml::getInstance()->addTagScriptByModule("class.opManplaniase.js","planillas/asesores");
+	
+ /*Cargo el Header*/
+ SystemHtml::getInstance()->addModule("header");
+ SystemHtml::getInstance()->addModule("header_logo");
+ /* cargo el modulo de top menu*/
+ SystemHtml::getInstance()->addModule("main/topmenu");
+ 
+  if (!(isset($_REQUEST['periodo']) && isset($_REQUEST['type']))){
+ 	 if(!isset($_REQUEST['noview'])){ 
+	 
+	 
+ ?>
+   <!-- Despliega la Ventana Modal para Seleccionar los Datos de Periodo -->
+	<script>
+       var modalWindow;
+          $(function(){
+              modalWindow = new opManplaniase('content_dialog', '<?=$_REQUEST['choice']?>');
+              modalWindow.doViewQuestion();
+           });
+    </script>
+ 
+ <?php 
+	 }
+  }else{ 
+      /*$cadena = '"periodo='.$_REQUEST['periodo'].'&type='.$_REQUEST['type'].'"';*/
+	  $cadena = '"anio='.$_REQUEST['anio'].'&periodo='.$_REQUEST['periodo'].'&type='.$_REQUEST['type'].'"';
+ ?>
+
+   <script>
+     var oTable;
+    
+     $(document).ready(function(){
+       
+        oTable = $("#catalogo").dataTable({
+                                "bFilter": true,
+                                "bInfo": false,
+                                "bPaginate": true,
+                                  "oLanguage": {
+                                        "sLengthMenu": "regs x pag_MENU_",
+                                        "sZeroRecords": "No se ha encontrado - lo siento",
+                                        "sInfo": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                                        "sInfoEmpty": "Mostrando 0 to 0 of 0 registros",
+                                        "sInfoFiltered": "(filtrado de _MAX_ total registros)",
+                                        "sSearch":"Buscar"
+                                    }
+                                });
+                                
+     });
+   
+   function anular_transapcion(registro){ 
+	   $.post("?mod_planillas/asesores/man_planilla_ase",{anular_trans:true},function(data){
+		  var dialogABC = createNewDialog("Anular concepto",data,400);
+		  var y = $('#'+dialogABC);
+		  y.dialog('option', 'position', [(document.scrollLeft/550), 100]);
+		  $("#comentario_pl").focus();
+	      $("#cancelar").click(function(){
+			  $("#"+dialogABC).dialog("destroy");
+			  $("#"+dialogABC).remove();
+		  });
+		  
+		  $("#procesar").click(function(){
+			 var comentario=$("#comentario_pl").val();
+			 if (comentario==""){
+				alert('Debe de ingresar un comentario!');
+				$("#comentario_pl").focus();
+				return ;	 
+			 }
+			 $.get("?mod_planillas/asesores/man_planilla_ase",{
+				 					procesar_anulacion:true,
+									id:registro,
+									comentario:$("#comentario_pl").val()
+								},function(data){
+			     if(data.error){
+					alert(data.mensaje);  
+				 }else{
+					alert(data.mensaje);
+					$("#"+dialogABC).dialog("destroy");
+					$("#"+dialogABC).remove(); 
+					window.location.reload();
+ 				 }
+			  },"json"); 
+		  });
+		 	  					   
+	   }); <!-- Fin del POST --> 
+   } 
+   
+   function editConcepto(registro){
+	   var accion = 'EDIT'; 
+	   
+	   $.post("?mod_planillas/asesores/view/pl_inout_ase",{"id":registro,"accion":accion},function(data){
+		  var dialogABC = createNewDialog("Modificar Concepto",data,400);
+		  var y = $('#'+dialogABC);
+		  y.dialog('option', 'position', [(document.scrollLeft/550), 100]);
+		  
+	      $("#cancelar").click(function(){
+			  $("#"+dialogABC).dialog("destroy");
+			  $("#"+dialogABC).remove();
+		  });
+		  
+		  $("#procesar").click(function(){
+			 $.post("?mod_planillas/asesores/man_planilla_ase",$("#frm_tbl_rubros").serializeArray(),function(data){
+			     if(data.error){
+					alert(data.mensaje);  
+				 }else{
+					alert(data.mensaje);
+					$("#"+dialogABC).dialog("destroy");
+					$("#"+dialogABC).remove(); 
+					window.location.reload();
+ 				 }
+			  },"json"); 
+		  });
+		 	  					   
+	   }); <!-- Fin del POST --> 
+	} 
+   
+   function detConceptos(id,cadena, periodo, type, anio,monto){
+	  
+     <!-- Pagina detalle de conceptos por gerente --> 	
+       $.post("?mod_planillas/asesores/view/pl_concepto_ase",{"idasesor":id, "periodo":periodo, "type":type, "anio":anio},function(data){
+	      var dialog = createNewDialog("Ingresos y Descuentos (" + cadena + ")",data,650);
+	   
+	      var n = $('#'+dialog);
+	      n.dialog('option', 'position', [(document.scrollLeft/550), 100]); 
+		
+	      $("#cancelar").click(function(){
+			$("#"+dialog).dialog("destroy");
+			$("#"+dialog).remove();
+		});
+				
+	      $("#pbutton").click(function(){
+		   var accion = 'INSERT';
+		   
+		     $.post("?mod_planillas/asesores/view/pl_inout_ase",{"idasesor":id, "accion":accion, "periodo":periodo, "type":type, "anio":anio},function(data){
+			    var dialogABC = createNewDialog("Ingreso de Conceptos",data,400);
+			    var y = $('#'+dialogABC);
+			    y.dialog('option', 'position', [(document.scrollLeft/550), 100]);
+			    
+				$("#idconcepto").change(function(){
+					if ($(this).val()==5){
+						$("#pl_inout_saldo").html("<strong>Saldo "+ monto+"</strong>");	
+					}else{
+						$("#pl_inout_saldo").html("");	
+					}
+				});
+				
+			    $("#cancelar").click(function(){
+					$("#"+dialogABC).dialog("destroy");
+					$("#"+dialogABC).remove();
+			    });			  
+			  
+			    $("#procesar").click(function(){
+				  $.post("?mod_planillas/asesores/man_planilla_ase",
+				  		$("#frm_tbl_rubros").serializeArray(), function(data){ 
+				     if (data.error){
+						  alert(data.mensaje); 
+					 }else{
+					      alert(data.mensaje);
+						 
+						  $("#"+dialogABC).dialog("destroy");
+						  $("#"+dialogABC).remove();
+						  window.location.reload();	
+						  
+ 					 }
+				  }, "json"); 
+				  
+			  });
+	
+			 });			 
+			   
+	    });
+	   });
+  }
+  
+  	 
+  function createDiv(){
+	var rand="Dialog_"+Math.floor(Math.random() * (1000 - 1 + 1) + 1);
+	$("#content_dialog").append("<div id=\""+rand+"\"></div>");
+	return rand;
+  }	 
+	 	 
+  function createNewDialog(title,data,width){
+	var rand=createDiv();
+	var width_=500;
+	if (width>0){
+		width_=width;
+	}
+	
+	$("#"+rand).attr("title",title);
+	$("#"+rand).html(data);
+	$("#"+rand).dialog({
+		modal: true,
+		width:width_,
+		close: function (ev, ui) {
+			$(this).dialog("destroy");
+			$(this).remove();
+
+		}
+	});	
+	return rand;
+  }  
+  
+ </script>
+<?php	
+  } ?>
+
+<div id="principal">
+  
+   <?php
+    if ((isset($_REQUEST['periodo']) && isset($_REQUEST['type']))){
+	
+   ?>
+   <h2>Mantenimiento Planilla Asesores</h2>
+   <div id="canvas" class="fsPage" style="width:98%">
+    <table border="0" class="display" id="catalogo" width="100%" style="font-size:12px;width:100%">
+      <thead>
+        <tr>
+          <th width="13%">C&oacute;digo</th>
+          <th width="53%">Nombre</th>
+          <th width="10%">SALDO</th>
+          <th width="10%">Tipo</th>
+          <th width="10%">Mes</th>
+          <th width="8%">A&ntilde;o</th>
+          <th width="6%">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      <?php
+	  
+	   $sql =  "select a.anio,
+					   a.mes,
+					   a.tipo_cierre,
+					   a.codigo_asesor,
+					   CONCAT(b.primer_nombre, ' ', b.primer_apellido) as nom_asesor,
+					(SELECT SUM(cxc.monto) AS monto FROM `cxc_balance_asesor` AS cxc
+						WHERE cxc.codigo_asesor=a.codigo_asesor and  cxc.estatus=1) AS monto					   
+				  from cm_planilla_asesor_tbl a,
+					   sys_asesor c,
+					   sys_personas b
+				 where a.codigo_asesor = c.codigo_asesor
+				   and c.id_nit = b.id_nit
+				   and a.anio = ".$anio."
+				   and a.mes  = ".$mes."
+				   and a.tipo_cierre = '".$tipo_cierre."' order by a.codigo_asesor";	
+					
+	    $resultSet = mysql_query($sql);		  
+        while($row = mysql_fetch_array($resultSet)){
+		  $encryptID   = System::getInstance()->Encrypt($row['codigo_asesor']);
+		  $encryptPer  = System::getInstance()->Encrypt($row['mes']);
+		  $encryptTyp  = System::getInstance()->Encrypt($row['tipo_cierre']);
+		  $encryptAnio = System::getInstance()->Encrypt($row['anio']);
+		  
+	   ?>	 
+		   <tr>
+              <td><?=$row['codigo_asesor']?></td>
+              <td><?=$row['nom_asesor']?></td>
+              <td align="center"><?=number_format($row['monto'],2);?></td>
+              <td align="center"><?=$row['tipo_cierre']?></td>
+              <td align="center"><?=$row['mes']?></td>
+		      <td align="center"><?=$row['anio']?></td>
+              <td align="center">
+                    <a href="#" onclick="detConceptos('<?=$encryptID?>','<?=$row['nom_asesor']?>','<?=$encryptPer?>','<?=$encryptTyp?>','<?=$encryptAnio?>','<?=number_format($row['monto'],2);?>')"><img src="images/clipboard_edit.png"/></a>
+              </td>
+		   </tr> 	 
+	   <?php	 
+	    }
+	  ?>  
+ 
+      </tbody>
+    </table>
+    
+   </div>
+   <?php } ?>   
+</div>
+
+
+<div id="content_dialog" >
+  <!-- Este DIV lo usan las ventanas emergentes -->
+</div>

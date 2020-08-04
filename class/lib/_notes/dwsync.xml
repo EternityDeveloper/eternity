@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".DS_Store" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130179409660000000" remote="130644160760000000" Dst="0" />
+<file name="Cipher.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130181165334928855" remote="130644160760000000" Dst="0" />
+<file name="class.ObjectSQL.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130535557693714162" remote="130644160760000000" Dst="0" />
+<file name="class.Security.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130447588676109000" remote="130644160760000000" Dst="0" />
+<file name="class.System.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130268671070192270" remote="130644160760000000" Dst="0" />
+<file name="class.SystemCache.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130184572453302892" remote="130644160760000000" Dst="0" />
+<file name="class.SystemHtml.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130597756540147046" remote="130644160760000000" Dst="0" />
+<file name="class.userAccess.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130633190588447263" remote="130644160760000000" Dst="0" />
+<file name="Database.class.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130185662288817918" remote="130644160760000000" Dst="0" />
+<file name="class.ObjectSQL.php" server="190.167.211.194//srv/www/htdocs/sandpit/" local="130342214944825916" remote="130342069700000000" Dst="0" />
+<file name="class.userAccess.php" server="190.167.211.194//srv/www/htdocs/sandpit/" local="130361778417633796" remote="130361633260000000" Dst="0" />
+<file name="class.Security.php" server="190.167.211.194//srv/www/htdocs/sandpit/" local="130371277309276347" remote="130371132110000000" Dst="0" />
+<file name="class.SystemHtml.php" server="190.167.211.194//srv/www/htdocs/sandpit/" local="130362029593737114" remote="130361884730000000" Dst="0" />
+<file name="class.SystemHtml.php" server="192.168.0.2//srv/www/htdocs/jpsys/" local="130597756540147046" remote="130597609610000000" Dst="0" />
+<file name="class.userAccess.php" server="192.168.0.2//srv/www/htdocs/jpsys/" local="130608924285686310" remote="130608777390000000" Dst="0" />
+<file name="class.Siadcom.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130620421055515730" remote="130644160760000000" Dst="0" />
+<file name="class.MVFactura.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130644091296077429" remote="130644160760000000" Dst="0" />
+<file name="class.SysLogs.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130641813538046600" remote="130644160760000000" Dst="0" />
+<file name="class.MVFactura.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130661629751414511" remote="130661482650000000" Dst="0" />
+<file name="class.SystemHtml.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130671263865396352" remote="130671120550000000" Dst="0" />
+<file name=".DS_Store" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130179409660000000" remote="130655379500000000" Dst="0" />
+<file name="Cipher.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130181165334928855" remote="130655379500000000" Dst="0" />
+<file name="class.ObjectSQL.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130535557693714162" remote="130655379500000000" Dst="0" />
+<file name="class.Security.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130447588676109000" remote="130655379500000000" Dst="0" />
+<file name="class.Siadcom.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130620421055515730" remote="130655379500000000" Dst="0" />
+<file name="class.STCSession.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130649725152308754" remote="130655379500000000" Dst="0" />
+<file name="class.SysLogs.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130668145360999993" remote="130668330210000000" Dst="0" />
+<file name="class.System.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130268671070192270" remote="130655379500000000" Dst="0" />
+<file name="class.SystemCache.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130184572453302892" remote="130655379500000000" Dst="0" />
+<file name="class.userAccess.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130666077104159559" remote="130665929980000000" Dst="0" />
+<file name="Database.class.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130659853370444188" remote="130659706500000000" Dst="0" />
+<file name=".DS_Store" server="192.168.0.6//var/www/html/sandbox/" local="130179409660000000" remote="130675452290000000" Dst="0" />
+<file name="Cipher.php" server="192.168.0.6//var/www/html/sandbox/" local="130181165334928855" remote="130675452290000000" Dst="0" />
+<file name="class.MVFactura.php" server="192.168.0.6//var/www/html/sandbox/" local="130675213536994707" remote="130675452290000000" Dst="0" />
+<file name="class.ObjectSQL.php" server="192.168.0.6//var/www/html/sandbox/" local="130671415213716147" remote="130675452290000000" Dst="0" />
+<file name="class.Security.php" server="192.168.0.6//var/www/html/sandbox/" local="130447588676109000" remote="130675452290000000" Dst="0" />
+<file name="class.Siadcom.php" server="192.168.0.6//var/www/html/sandbox/" local="130620421055515730" remote="130675452290000000" Dst="0" />
+<file name="class.STCSession.php" server="192.168.0.6//var/www/html/sandbox/" local="130649725152308754" remote="130675452290000000" Dst="0" />
+<file name="class.SysLogs.php" server="192.168.0.6//var/www/html/sandbox/" local="130673044725198072" remote="130675452290000000" Dst="0" />
+<file name="class.System.php" server="192.168.0.6//var/www/html/sandbox/" local="130268671070192270" remote="130675452290000000" Dst="0" />
+<file name="class.SystemCache.php" server="192.168.0.6//var/www/html/sandbox/" local="130184572453302892" remote="130675452290000000" Dst="0" />
+<file name="class.SystemHtml.php" server="192.168.0.6//var/www/html/sandbox/" local="130671263865396352" remote="130675452290000000" Dst="0" />
+<file name="class.userAccess.php" server="192.168.0.6//var/www/html/sandbox/" local="130666077104159559" remote="130675452290000000" Dst="0" />
+<file name="Database.class.php" server="192.168.0.6//var/www/html/sandbox/" local="130659853370444188" remote="130675452320000000" Dst="0" />
+</dwsync>

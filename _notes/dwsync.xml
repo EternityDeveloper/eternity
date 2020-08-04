@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="importarCM.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130217400625517215" remote="130644161580000000" Dst="0" />
+<file name="index.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130633181945387883" remote="130644161580000000" Dst="0" />
+<file name="procesarClientes.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130218601017839455" remote="130644161820000000" Dst="0" />
+<file name="procesarClientes2.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130219960450885423" remote="130644161820000000" Dst="0" />
+<file name="reparar_figs_NNF.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130212038722062133" remote="130644161820000000" Dst="0" />
+<file name="reparar_figs_NNF_Libro_detalle.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130213937133506385" remote="130644161820000000" Dst="0" />
+<file name="text.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130367219836454915" remote="130644163420000000" Dst="0" />
+<file name="report.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130517630468477507" remote="130644161820000000" Dst="0" />
+<file name="task.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130445611188411169" remote="130644163370000000" Dst="0" />
+<file name="script_reporte_pilar.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130596898254823136" remote="130644163370000000" Dst="0" />
+<file name="script_reporte_pilar.php" server="192.168.0.2//srv/www/htdocs/jpsys/" local="130576524581117207" remote="130576826830000000" Dst="0" />
+<file name="email_template.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130617620066031806" remote="130644161150000000" Dst="0" />
+<file name="upload.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130585927810000000" remote="130644163420000000" Dst="0" />
+<file name="script_clasificar_prospectos.php" server="192.168.0.2//srv/www/htdocs/jpsys/" local="130605485999876210" remote="130612715990000000" Dst="0" />
+<file name="clip_image002.jpg" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130499171785043013" remote="130644161070000000" Dst="0" />
+<file name="clip_image002_0000.jpg" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130615814073360598" remote="130644161070000000" Dst="0" />
+<file name="clip_image002_0001.jpg" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130616744210068191" remote="130644161070000000" Dst="0" />
+<file name="conf.json" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130354228518882032" remote="130644161070000000" Dst="0" />
+<file name="CONTRATO.html" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130500303678166680" remote="130644161070000000" Dst="0" />
+<file name="CUENTAS.csv" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130633778842417675" remote="130644161150000000" Dst="0" />
+<file name="email_template_cambio_tasa.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130595372587871348" remote="130644161150000000" Dst="0" />
+<file name="email_template_promo.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130617681444124727" remote="130644161150000000" Dst="0" />
+<file name="getRuta.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130498623984163961" remote="130644161230000000" Dst="0" />
+<file name="prueba.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130367233005198124" remote="130644161820000000" Dst="0" />
+<file name="script_clasificar_prospectos.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130605485999876210" remote="130644163370000000" Dst="0" />
+<file name="script_pilar_gerencia_reporte.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130597003119626257" remote="130644163370000000" Dst="0" />
+<file name="script_reporte_pilar - Copy.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130573610103307970" remote="130644163370000000" Dst="0" />
+<file name="test.html" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130578715840538607" remote="130644163420000000" Dst="0" />
+<file name="test.txt" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130498624299111975" remote="130644163420000000" Dst="0" />
+<file name="testing.php" server="192.168.0.2//srv/www/htdocs/sandpit/" local="130631704021735026" remote="130644163420000000" Dst="0" />
+<file name="index.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130652054205774516" remote="130655649710000000" Dst="0" />
+<file name="barcode.php" server="192.168.0.2//srv/www/htdocs/testarossa/" local="130656566054235910" remote="130656419180000000" Dst="0" />
+<file name="barcode.php" server="192.168.0.6//var/www/html/sandbox/" local="130656573574544714" remote="130675452290000000" Dst="0" />
+<file name="clip_image002.jpg" server="192.168.0.6//var/www/html/sandbox/" local="130499171785043013" remote="130675452580000000" Dst="0" />
+<file name="clip_image002_0000.jpg" server="192.168.0.6//var/www/html/sandbox/" local="130615814073360598" remote="130675452580000000" Dst="0" />
+<file name="clip_image002_0001.jpg" server="192.168.0.6//var/www/html/sandbox/" local="130616744210068191" remote="130675452580000000" Dst="0" />
+<file name="conf.json" server="192.168.0.6//var/www/html/sandbox/" local="130354228518882032" remote="130675452580000000" Dst="0" />
+<file name="CONTRATO.html" server="192.168.0.6//var/www/html/sandbox/" local="130500303678166680" remote="130675452580000000" Dst="0" />
+<file name="CUENTAS.csv" server="192.168.0.6//var/www/html/sandbox/" local="130633778842417675" remote="130675452670000000" Dst="0" />
+<file name="email_template.php" server="192.168.0.6//var/www/html/sandbox/" local="130617620066031806" remote="130675452670000000" Dst="0" />
+<file name="email_template_cambio_tasa.php" server="192.168.0.6//var/www/html/sandbox/" local="130595372587871348" remote="130675452670000000" Dst="0" />
+<file name="email_template_promo.php" server="192.168.0.6//var/www/html/sandbox/" local="130617681444124727" remote="130675452670000000" Dst="0" />
+<file name="getRuta.php" server="192.168.0.6//var/www/html/sandbox/" local="130498623984163961" remote="130675452770000000" Dst="0" />
+<file name="importarCM.php" server="192.168.0.6//var/www/html/sandbox/" local="130217400625517215" remote="130675453130000000" Dst="0" />
+<file name="index.php" server="192.168.0.6//var/www/html/sandbox/" local="130652054205774516" remote="130675453130000000" Dst="0" />
+<file name="procesarClientes.php" server="192.168.0.6//var/www/html/sandbox/" local="130218601017839455" remote="130675453430000000" Dst="0" />
+<file name="procesarClientes2.php" server="192.168.0.6//var/www/html/sandbox/" local="130219960450885423" remote="130675453430000000" Dst="0" />
+<file name="prueba.php" server="192.168.0.6//var/www/html/sandbox/" local="130367233005198124" remote="130675453440000000" Dst="0" />
+<file name="reparar_figs_NNF.php" server="192.168.0.6//var/www/html/sandbox/" local="130212038722062133" remote="130675453440000000" Dst="0" />
+<file name="reparar_figs_NNF_Libro_detalle.php" server="192.168.0.6//var/www/html/sandbox/" local="130213937133506385" remote="130675453440000000" Dst="0" />
+<file name="report.php" server="192.168.0.6//var/www/html/sandbox/" local="130517630468477507" remote="130675453440000000" Dst="0" />
+<file name="script_clasificar_prospectos.php" server="192.168.0.6//var/www/html/sandbox/" local="130644362585397066" remote="130675454730000000" Dst="0" />
+<file name="script_pilar_gerencia_reporte.php" server="192.168.0.6//var/www/html/sandbox/" local="130597003119626257" remote="130675454730000000" Dst="0" />
+<file name="script_reporte_pilar - Copy.php" server="192.168.0.6//var/www/html/sandbox/" local="130573610103307970" remote="130675454730000000" Dst="0" />
+<file name="script_reporte_pilar.php" server="192.168.0.6//var/www/html/sandbox/" local="130596898254823136" remote="130675454730000000" Dst="0" />
+<file name="task.php" server="192.168.0.6//var/www/html/sandbox/" local="130445611188411169" remote="130675454730000000" Dst="0" />
+<file name="test.html" server="192.168.0.6//var/www/html/sandbox/" local="130578715840538607" remote="130675454760000000" Dst="0" />
+<file name="test.txt" server="192.168.0.6//var/www/html/sandbox/" local="130498624299111975" remote="130675454760000000" Dst="0" />
+<file name="testing.php" server="192.168.0.6//var/www/html/sandbox/" local="130631704021735026" remote="130675454760000000" Dst="0" />
+<file name="text.php" server="192.168.0.6//var/www/html/sandbox/" local="130367219836454915" remote="130675454760000000" Dst="0" />
+<file name="upload.php" server="192.168.0.6//var/www/html/sandbox/" local="130585927810000000" remote="130675454760000000" Dst="0" />
+</dwsync>
