@@ -300,10 +300,10 @@ class Contratos{
 						  
 			$rt['address_id']=System::getInstance()->Encrypt(mysql_insert_id());
 			
-		  	$prueba = mysql_query($SQL);
-                        if (!$prueba) {
-                           $rt['mensaje']="error direccion".mysql_error()."query".$SQL;
-                          }	
+			$prueba = mysql_query($SQL);
+						if (!$prueba) {
+						   $rt['mensaje']="error direccion".mysql_error()."query".$SQL;
+						  }	
 		}
 		return $rt;
 	}	
@@ -441,6 +441,31 @@ class Contratos{
 		}
 		return $rt;	
 	}	
+	
+	public function docambiarfechapago($serie_contrato,$no_contrato,$newfechapago,$newdiapago){
+		$rt=array("error"=>true,"mensaje"=>"No se pudo procesar la informacion"); 	
+		$cc=$this->getInfoContrato($serie_contrato,$no_contrato); 
+ 		/*VERIFICO SI EXISTE EL ID_NIT DE LA SOLICITUD O CONTRATO
+		CON ESO DETERMINO SI EL CONTRATO/SOLICITUD EXISTE*/ 
+ 
+ 		if (isset($cc->id_nit_cliente)){
+			if ($cc->estatus!="1"){
+				$rt=array("error"=>false,
+							"mensaje"=>"No se puede realizar esta operacion el contrato ya ha sido cambiado de estatus!"); 	
+				return $rt;
+			} 
+			$obj= new ObjectSQL();
+	 		$obj->fecha_primer_pago = date("Y/m/d", strtotime($newfechapago));
+			$obj->dia_pago = $newdiapago;
+			$obj->setTable("contratos");
+			$SQL=$obj->toSQL("update", "WHERE serie_contrato='".$serie_contrato."' AND no_contrato='".$no_contrato."' and estatus = 1 ");
+			$query = mysql_query($SQL);
+			$rt=array("alert"=>true, "mensaje" => "Fecha cambiada exitosamente"); 	
+			return $rt;	
+		}
+		return $rt;	
+	}	
+	
 	/*
 		AnularOrDesistirProductos
 	*/

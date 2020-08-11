@@ -53,7 +53,10 @@ var ContratoView = new Class({
 		});		
 		$("#anular").click(function(){  
 			 instance.doAnular();
-		});	
+		});
+        $("#newfecha").click(function(){  
+			 instance.donewfecha();
+		});		
 		$("#desistir").click(function(){ 
 			instance.doDesistir();
 		});	
@@ -460,7 +463,35 @@ var ContratoView = new Class({
 			});
 		});	
 	},
-
+	
+	/*Cambio fecha de pago*/
+	donewfecha : function(){
+		var instance=this; 
+		instance.post("./?mod_cobros/delegate&cambiofecha_pago",{ 
+				'contrato':this._contrato 
+		},function(data){  
+			instance.doDialog("myModal",instance.dialog_container,data);
+		   	
+			$("#aplicar_cambio").click(function(){
+				if (!confirm("Esta seguro de realizar esta operacion?")){
+							return false;
+						}
+						instance.post("./?mod_cobros/delegate&cambiar_fechapago",{ 
+								'contrato':instance._contrato,
+								'token':instance._rand,
+								'newfechapago':$("#newfechapago").val(),
+								'newdiapago':$("#newdiapago").val(),
+						},function(data){ 
+							alert(data.mensaje);
+							if (!data.valid){
+								$("#myModal").modal('hide');
+								window.location.reload();
+							}
+				         },"json");
+			});
+		});	
+	},
+	
 	/*Ventana que genera gestion*/
 	doGenerateGestion : function(){
 		var instance=this; 

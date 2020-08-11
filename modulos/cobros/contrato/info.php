@@ -427,6 +427,10 @@ while($row=mysql_fetch_assoc($rs)){
                                                   <li><a href="#" id="desistir">Desistir contrato</a></li>
                                                   <li class="divider"></li>
                                                   <?php 	 }  ?>
+                                                  <?php if ($protect->getIfAccessPageById(152)){  ?>
+                                                  <li><a href="#" id="newfecha">Cambio Fecha Pago</a></li>
+                                                  <li class="divider"></li>
+                                                  <?php } ?>
                                                   <?php } ?>
                                                 </ul>
                                               </div>

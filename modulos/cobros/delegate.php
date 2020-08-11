@@ -317,8 +317,8 @@ if (isset($_REQUEST["exportToExcel"])){
 			}
 	
 	}
-	exportToCsv("pago_comision_asesores_".$anio."_". $mes."_".$tipo_cierre.".csv",$assoc);
-//	createExcel("reporte_". $filter['desde']."_". $filter['hasta'].".xls", $assoc);	
+	//exportToCsv("pago_comision_asesores_".$anio."_". $mes."_".$tipo_cierre.".csv",$assoc);
+	createExcel("reporte_". $filter['desde']."_". $filter['hasta'].".xls", $assoc);	
 	exit;
 }
 
@@ -1271,6 +1271,31 @@ if (isset($_REQUEST['anular_contrato'])){
 	exit;
 }
 
+if (isset($_REQUEST['cambiar_fechapago'])){  
+	/*VERIFICO QUE TENGA PERMISO PARA CAMBIAR FECHA DE PAGO*/
+ 	if ($protect->getIfAccessPageById(152)){ 
+		if (validateField($_REQUEST,"contrato") && validateField($_REQUEST,"newfechapago")){
+			SystemHtml::getInstance()->includeClass("contratos","Contratos");  
+			
+				
+				$contrato=json_decode(System::getInstance()->Decrypt($_REQUEST['contrato']));   
+				$con=new Contratos($protect->getDBLink());
+				 
+				echo json_encode($con->docambiarfechapago(
+															$contrato->serie_contrato,
+													   		$contrato->no_contrato,
+													   		$_REQUEST['newfechapago'], 
+													   		$_REQUEST['newdiapago']  )); 
+				exit;
+			
+		}
+	}else{
+		$rt= json_encode(array("valid"=>false,"mensaje"=>"No tiene privilegios para realizar esta operacion!"));	
+	}
+	echo $rt;
+	exit;
+}
+
 /*VENTANA QUE GENERA UNA GESTION*/
 if (isset($_REQUEST['doGenerateGestion'])){  
 	include("contrato/view/view_create_gestion.php"); 
@@ -1301,6 +1326,12 @@ if (isset($_REQUEST['view_comentario'])){
 /*VENTANA ANULAR*/
 if (isset($_REQUEST['view_anular'])){  
 	include("contrato/view/view_anular.php"); 
+	exit;
+} 
+
+/*CAMBIO FECHA PAGO*/
+if (isset($_REQUEST['cambiofecha_pago'])){  
+	include("contrato/view/cambio_fecha.php"); 
 	exit;
 } 
 
