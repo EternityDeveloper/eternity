@@ -8,8 +8,8 @@ define('VERSION', "1.1");
 
 define('DB_SERVER', "localhost");
 define('DB_USER', "traslado");
-define('DB_PWD', "ASxc2018#"); 
-define('DB_DATABASE', "dbeternity"); 
+define('DB_PWD', "Ete3105**"); 
+define('DB_DATABASE', "eternity"); 
 
 /*
 define('DB_SERVER', "192.168.0.25");
